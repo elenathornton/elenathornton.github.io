@@ -67,7 +67,7 @@
 	}
 
 	.row > * {
-		float: inherit;
+		float: none;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -82,10 +82,12 @@
 
 	.row.uniform > * > :first-child {
 		margin-top: 0;
+		float:left;
 	}
 
 	.row.uniform > * > :last-child {
 		margin-bottom: 0;
+		float: right;
 	}
 
 	.row.\30 \25 > * {
