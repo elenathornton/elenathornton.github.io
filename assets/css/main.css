@@ -75,19 +75,17 @@
 
 	.row:after, .row:before {
 		content: '';
-		display: block;
+		display: table;
 		clear: both;
 		height: 0;
 	}
 
 	.row.uniform > * > :first-child {
 		margin-top: 0;
-		float:left;
 	}
 
 	.row.uniform > * > :last-child {
 		margin-bottom: 0;
-		float: right;
 	}
 
 	.row.\30 \25 > * {
@@ -185,6 +183,19 @@
 	.row.uniform.\32 5\25 {
 		margin: -0.5em 0 -1px -0.5em;
 	}
+	.column {
+  		float: left;
+  		padding: 10px;
+	}
+
+	.left {
+  		width: 25%;
+}
+
+	.right {
+  		width: 75%;
+	}
+
 
 	.\31 2u, .\31 2u\24 {
 		width: 100%;
