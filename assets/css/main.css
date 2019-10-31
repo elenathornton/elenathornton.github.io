@@ -2016,6 +2016,20 @@
 				ul.icons li:last-child {
 					padding-right: 0;
 				}
+				ul.nav {
+					cursor: default;
+					list-style: none;
+					padding-left: 0;
+				}
+
+					ul.nav li {
+						display: inline-block;
+						padding: 0 1em 0 0;
+					}
+
+						ul.nav li:last-child {
+							padding-right: 0;
+						}
 
 		ul.actions {
 			cursor: default;
