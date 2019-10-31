@@ -2633,12 +2633,19 @@
 
 		}
 
-	.nav:after{
+	#nav:after{
 			content: '';
 			border-top: solid 1px rgba(255, 255, 255, 0.25);
 			width: 10em;
 			display: block;
 			margin: 0 auto 3em auto;
+		}
+		@media screen and (max-width: 1280px) {
+
+			#nav {
+				padding: 2em 0 2em 0;
+			}
+
 		}
 
 /* Footer */
