@@ -1695,6 +1695,7 @@
 		text-decoration: none;
 		display: block;
 		position: relative;
+		align-self: center;
 	}
 
 		.select-wrapper:before {
