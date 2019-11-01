@@ -2028,7 +2028,10 @@
 		ul.icons li:last-child {
 			padding-right: 0;
 		}
-
+		ul.navi li {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 
 
 		ul.actions {
