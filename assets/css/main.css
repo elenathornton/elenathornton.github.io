@@ -1486,7 +1486,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 200;
-		line-height: 1.5;
+		line-height: .75;
 		margin: 0 0 1em 0;
 	}
 
@@ -1723,7 +1723,7 @@
 			color: rgba(255, 255, 255, 0.25);
 			display: block;
 			height: 2.75em;
-			line-height: 2.75em;
+			line-height: 0em;
 			pointer-events: none;
 			position: absolute;
 			right: 0;
