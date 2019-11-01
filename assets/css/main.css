@@ -2,11 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
 
-/*
-	Visualize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
 
 /* Reset */
 
@@ -1424,7 +1419,7 @@
 
 	body {
 		background-color: #000;
-		background-image: url("https://elenathornton.github.io/images/Seattle.jpg");
+		background-image: url("https://elenathornton.github.io/images/bg.jpg");
 		background-size: cover;
 		background-position: top center;
 	}
