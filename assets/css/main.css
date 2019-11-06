@@ -1532,7 +1532,10 @@
 	h3 {
 		font-size: 24px;
 		font-weight: bold;
+		text-align: left;
+		margin-left: 0em;
 	}
+
 
 	h4 {
 		font-size: 1em;
@@ -2394,6 +2397,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: inline-table;
+		border-radius: 100%;
 		width: 200px;
 		height: 200px;
 		float: left;
@@ -2648,7 +2652,7 @@
 			border-top: solid 1px rgba(255, 255, 255, 0.25);
 			width: 10em;
 			display: block;
-			margin: 0 auto 3em auto;
+			margin: 0 auto 1em auto;
 		}
 		@media screen and (max-width: 1280px) {
 
