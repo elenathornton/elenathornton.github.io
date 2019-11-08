@@ -321,6 +321,10 @@
 		.row > * {
 			padding: 0 0 0 2em;
 		}
+		.column-left,.column-right{
+			display: block;
+			width: auto;
+		}
 
 		.row {
 			margin: 0 0 -1px -2em;
@@ -1498,6 +1502,9 @@
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
 			}
+			p{
+				text-align: center;
+			}
 
 		}
 
@@ -2474,6 +2481,8 @@
 
 			.thumbnails {
 				margin: 0 0 2em -1.5em;
+				align-items: center;
+				display: block;
 			}
 
 				.thumbnails a {
