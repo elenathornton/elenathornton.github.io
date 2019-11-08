@@ -324,9 +324,9 @@
 			display: block;
 
 		}
-		.column-left,.column-right{
+		.column-left,.column-right>*{
 			display: block;
-			width: auto;
+			width: 100%;
 			float:left;
 		}
 
