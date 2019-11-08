@@ -318,10 +318,15 @@
 
 	@media screen and (max-width: 1680px) {
 
-		.row > * {
+		p {
+
+			text-align:left;
+		}
+		.row,.individual > * {
 			align-content: center;
 			padding: 0 0 0 2em;
-			
+			display: block;
+
 		}
 		.column-left,.column-right{
 			display: block;
