@@ -318,10 +318,6 @@
 
 	@media screen and (max-width: 1680px) {
 
-		p {
-
-			text-align:left;
-		}
 		.row,.individual > * {
 			align-content: center;
 			padding: 0 0 0 2em;
@@ -1453,6 +1449,7 @@
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				align-content: center;
 			}
 
 		}
@@ -1512,6 +1509,7 @@
 			}
 			p{
 				text-align: center;
+				float: inherit;
 			}
 
 		}
