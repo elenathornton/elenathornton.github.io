@@ -324,6 +324,7 @@
 		.column-left,.column-right{
 			display: block;
 			width: auto;
+			float:left;
 		}
 
 		.row {
