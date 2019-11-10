@@ -75,7 +75,6 @@
 		clear: both;
 		height: 0;
 		padding-top: 30px;
-		border: none;
 
 	}
 
@@ -319,11 +318,16 @@
 
 	@media screen and (max-width: 1680px) {
 
+
 		.row,.individual > * {
-			align-content: center;
 			padding: 0 0 0 2em;
 			display: block;
 
+		}
+		.column-left,.column-right{
+			display: block;
+			width: auto;
+			float:left;
 		}
 
 		.row {
@@ -1445,7 +1449,6 @@
 
 			body, input, select, textarea {
 				font-size: 12pt;
-				align-content: center;
 			}
 
 		}
@@ -1503,6 +1506,10 @@
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
 			}
+			p{
+				text-align: center;
+			}
+
 		}
 
 	h1 {
@@ -2409,7 +2416,7 @@
 		border-radius: 100%;
 		width: 200px;
 		height: 200px;
-		float: none;
+		float: left;
 		background-color: white;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
@@ -2428,7 +2435,7 @@
 			-ms-transition: all 0.2s ease;
 			transition: all 0.2s ease;
 			border-bottom: none;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			text-align: left;
 			border-radius: 100%;
 			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
@@ -2436,13 +2443,13 @@
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
-			border-bottom: none;
-
+		}
+		#quantify{
+			background: linear-gradient(-45deg, #23A6D5, #23D5AB);
 		}
 
-
 			.thumbnails a img {
-				display: flex;
+				display: block;
 
 				border-top-left-radius: 4px;
 				border-top-right-radius: 4px;
@@ -2478,7 +2485,8 @@
 
 			.thumbnails {
 				margin: 0 0 2em -1.5em;
-
+				align-items: center;
+				display: block;
 			}
 
 				.thumbnails a {
