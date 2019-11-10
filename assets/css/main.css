@@ -319,7 +319,7 @@
 	@media screen and (max-width: 1680px) {
 
 
-		.row,.individual > * {
+		.row > * {
 			padding: 0 0 0 2em;
 			display: block;
 
@@ -2425,6 +2425,7 @@
 		margin: 0 2em 2em -2em;
 		position: inherit;
 		object-fit: cover;
+		align-content: center;
 
 
 	}
