@@ -75,6 +75,7 @@
 		clear: both;
 		height: 0;
 		padding-top: 30px;
+		border: none;
 
 	}
 
@@ -2408,7 +2409,7 @@
 		border-radius: 100%;
 		width: 200px;
 		height: 200px;
-		float: left;
+		float: none;
 		background-color: white;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
@@ -2435,6 +2436,8 @@
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
+			border-bottom: none;
+
 		}
 
 
