@@ -1417,9 +1417,11 @@
 
 	}
 
+
+
 	body {
 		background-color: #000;
-		background-image: url("https://elenathornton.github.io/bg.jpg");
+		background-image: url("images/lavender.jpg");
 		background-size: cover;
 		background-position: top center;
 	}
@@ -1506,8 +1508,8 @@
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
 			}
-			p{
-				text-align: center;
+			.column,.left,.right{
+				display: block;
 			}
 
 		}
