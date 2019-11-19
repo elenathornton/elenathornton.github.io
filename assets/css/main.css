@@ -3048,7 +3048,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.gallery a.landscape {
+			.gallery a.landscape,iframe {
 				width: inherit;
 				height:auto;
 
