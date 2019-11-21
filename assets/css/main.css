@@ -39,7 +39,8 @@ figcaption {
 }
 .gallery figcaption{
 	margin-top:0px;
-	margin-left: 22px;
+	margin-left: 0px;
+	font-size: 70%
 }
 .divider{
 	text-align: center;
