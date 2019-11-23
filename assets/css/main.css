@@ -2629,7 +2629,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: -2rem 0 2rem 0;
 		padding-left: 1rem;
 	}
 
@@ -2710,6 +2710,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
+		margin-top: 0rem;
 		padding-left: 0;
 	}
 
