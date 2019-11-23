@@ -2021,7 +2021,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #44f2cb;
+				background-color: #fff;
 			}
 
 		@media screen and (max-width: 736px) {
