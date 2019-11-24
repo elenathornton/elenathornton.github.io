@@ -33,7 +33,7 @@ figcaption {
 	float: none;
 	display: block;
 	margin-top: -50px;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	font-size: 80%;
 
 }
@@ -2602,6 +2602,7 @@ input, select, textarea {
 		.image.fill {
 			height: 100%;
 			left: 0;
+			display:grid;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2943,6 +2944,11 @@ input, select, textarea {
 
 		a.arrow .label {
 			display: none;
+		}
+		a.back {
+			transform: rotate(90deg);
+			display: run-in;
+			margin-top: 19px;
 		}
 
 		a.arrow:before {
