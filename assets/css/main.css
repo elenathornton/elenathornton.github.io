@@ -61,6 +61,10 @@ figcaption {
 	h3,h6{
 		display: inline-block;
 	}
+	figcaption{
+		display: block;
+		margin:0px;
+	}
 
 }
 
@@ -2718,6 +2722,10 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1rem;
 			vertical-align: middle;
+
+		}
+		ul.u{
+			margin-bottom: -30px;
 		}
 
 		ul.actions.special {
