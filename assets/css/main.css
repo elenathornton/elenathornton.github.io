@@ -3498,6 +3498,9 @@ input, select, textarea {
 				max-width: 60rem;
 				position: relative;
 			}
+			.content .s > p{
+				margin-top: 1rem;
+			}
 
 			#wrapper section > footer {
 				grid-area: footer;
