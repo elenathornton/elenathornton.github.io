@@ -3499,7 +3499,7 @@ input, select, textarea {
 				position: relative;
 			}
 			.content .s > p{
-				margin-top: 1rem;
+				margin-top: .5rem;
 			}
 
 			#wrapper section > footer {
