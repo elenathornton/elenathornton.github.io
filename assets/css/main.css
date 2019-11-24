@@ -2946,7 +2946,7 @@ input, select, textarea {
 			display: none;
 		}
 		a.back {
-			transform: rotate(180deg);
+			transform: rotate(90deg);
 			display: run-in;
 			margin-top: 19px;
 		}
