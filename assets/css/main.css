@@ -2433,13 +2433,12 @@ input, select, textarea {
 			display: none;
 		}
 
-		.icon.b:before {
-			font-weight: 300;
-		}
 
 		.icon.b:before {
 			font-size: 1.5em;
 			font-family: 'Font Awesome 5 Brands';
+			font-weight: 300;
+
 		}
 
 
