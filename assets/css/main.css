@@ -2433,8 +2433,8 @@ input, select, textarea {
 			display: none;
 		}
 
-		.icon:before {
-			font-weight: 900;
+		.icon.m:before {
+			font-weight: 300;
 		}
 
 		.icon.b:before {
@@ -2963,7 +2963,7 @@ input, select, textarea {
 			a.back{
 				display: inline-block;
 				float: none;
-				align-content: center;
+				align-content: center
 			}
 		}
 
