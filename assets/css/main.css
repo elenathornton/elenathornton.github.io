@@ -2426,14 +2426,14 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 
-			font-weight: 400;
+			font-weight: 900;
 		}
 
 		.icon > .label {
 			display: none;
 		}
 
-		.icon.m:before {
+		.icon.b:before {
 			font-weight: 300;
 		}
 
